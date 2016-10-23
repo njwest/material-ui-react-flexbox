@@ -8,7 +8,6 @@ import { Toolbar, ToolbarTitle } from 'material-ui/Toolbar';
 import { List, ListItem } from 'material-ui/List';
 import { Card } from 'material-ui/Card';
 import { Grid, Row, Col } from 'react-flexbox-grid/lib/index';
-import {Navi} from './navi';
 
 class _TopContainer extends Component {
   static getStores() {
@@ -27,7 +26,7 @@ class _TopContainer extends Component {
   render() {
     return (
       <div>
-        <AppBar title="Sample App" children={Navi}/>
+        <AppBar title="Sample App"/>
         <Toolbar>
           <ToolbarTitle text="Container: TopContainer"/>
         </Toolbar>

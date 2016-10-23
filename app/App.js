@@ -9,6 +9,8 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import TopContainer from './components/TopContainer';
 import SampleContainer1 from './components/SampleContainer1';
 import SampleContainer2 from './components/SampleContainer2';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+injectTapEventPlugin();
 
 const muiTheme = getMuiTheme({});
 

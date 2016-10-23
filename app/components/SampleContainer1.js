@@ -29,13 +29,14 @@ class _SampleContainer1 extends Component {
       {i: 'b', x: 1, y: 0, w: 3, h: 2, minW: 2, maxW: 4},
       {i: 'c', x: 4, y: 0, w: 1, h: 2}
     ];
+
     const navStyle = {
       'color': 'white',
       height: '64px',
     }
     return (
       <div>
-        <AppBar title="Sample App">
+        <AppBar onLeftIconButtonTouchTap={()=>{console.log('ow')}} title="Nick West's Home">
             <Link to="sample2"><FlatButton rippleColor="pink" style={navStyle}>Whaaaaat</FlatButton></Link>
             <Link to="sample2"><FlatButton style={navStyle}>Who</FlatButton></Link>
             <Link to="sample2"><FlatButton style={navStyle}>Where</FlatButton></Link>
