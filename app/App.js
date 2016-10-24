@@ -1,14 +1,13 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { Container } from 'flux/utils';
-import { Router, Route, browserHistory } from 'react-router'
+import { Router, Route, browserHistory, IndexRoute } from 'react-router';
 import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
-
+import Layout from './layouts/main.js';
 import TopContainer from './components/TopContainer';
-import SampleContainer1 from './components/SampleContainer1';
-import SampleContainer2 from './components/SampleContainer2';
+import Home from './components/Home';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
 
@@ -17,9 +16,9 @@ const muiTheme = getMuiTheme({});
 render((
   <MuiThemeProvider muiTheme={muiTheme}>
     <Router history={browserHistory}>
-      <Route path="/" component={TopContainer}/>
-      <Route path="sample1" component={SampleContainer1}/>
-      <Route path="sample2" component={SampleContainer2}/>
+      <Route path="/" component={Layout}>
+        <IndexRoute name="index" component={Home}/>
+      </Route>
     </Router>
   </MuiThemeProvider>
 ), document.getElementById('root'));
