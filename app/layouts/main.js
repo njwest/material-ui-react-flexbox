@@ -30,14 +30,11 @@ export default class Layout extends React.Component {
       <MenuItem>Menu Item 2</MenuItem>
     </Drawer>
     <AppBar onLeftIconButtonTouchTap={this.handleToggle} title="Nick West's Home">
-        <Link to="sample2"><FlatButton rippleColor="pink" style={navStyle}>Whaaaaat</FlatButton></Link>
-        <Link to="sample2"><FlatButton style={navStyle}>Who</FlatButton></Link>
-        <Link to="sample2"><FlatButton style={navStyle}>Where</FlatButton></Link>
+        <Link to="sample2"><FlatButton rippleColor="pink" style={navStyle}>About Nick</FlatButton></Link>
+        <Link to="sample2"><FlatButton style={navStyle}>Contact</FlatButton></Link>
+        <Link to="sample2"><FlatButton style={navStyle}>Portfolio</FlatButton></Link>
         <Link to="sample2"><FlatButton style={navStyle}>How</FlatButton></Link>
     </AppBar>
-    <Toolbar>
-      <ToolbarTitle text="Container: SampleContainer1"/>
-    </Toolbar>
       {this.props.children}
     </div>;
   }

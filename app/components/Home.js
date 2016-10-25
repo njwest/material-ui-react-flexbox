@@ -34,23 +34,22 @@ class _Home extends Component {
   render() {
     return (
       <div>
-
+      <Toolbar>
         <div className="container">
-          <List>
-            <ListItem><Link to="/">Top</Link></ListItem>
-            <ListItem><Link to="sample1">Sample1</Link></ListItem>
-            <ListItem><Link to="sample2">Sample2</Link></ListItem>
-          </List>
+          <ToolbarTitle text="About Nick"/>
+        </div>
+      </Toolbar>
+        <div className="container">
 
           <Row>
-            <Col xs={12} md={8}>
+            <Col xs={12} md={7}>
               <Card>
                 <h2>Sup suckas</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               </Card>
             </Col>
 
-            <Col xs={12} md={4}>
+            <Col xs={12} md={5}>
               <Card>
                 <h2>Mo stuff</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -66,3 +65,9 @@ class _Home extends Component {
 
 const Home = Container.create(_Home);
 export default Home;
+
+// <List>
+//   <ListItem><Link to="/">Top</Link></ListItem>
+//   <ListItem><Link to="sample1">Sample1</Link></ListItem>
+//   <ListItem><Link to="sample2">Sample2</Link></ListItem>
+// </List>

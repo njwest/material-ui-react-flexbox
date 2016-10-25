@@ -86,6 +86,7 @@
     "react-dom": "^15.3.2",
     "react-flexbox-grid": "^0.10.2",
     "react-grid-layout": "^0.13.9",
+    "react-konami": "^0.2.5",
     "react-router": "^2.8.1",
     "react-tap-event-plugin": "^1.0.0"
   }
