@@ -23,6 +23,11 @@ export default class Layout extends React.Component {
       'color': 'white',
       height: '64px',
     }
+    const navImg = {
+      paddingTop: '16px',
+      height: '64px',
+      width: '30px',
+    }
 
     return <div>
     <Drawer open={this.state.open} docked={false} onRequestChange={(open) => this.setState({open})}>
@@ -31,9 +36,12 @@ export default class Layout extends React.Component {
     </Drawer>
     <AppBar onLeftIconButtonTouchTap={this.handleToggle} title="Nick West's Home">
         <Link to="sample2"><FlatButton rippleColor="pink" style={navStyle}>About Nick</FlatButton></Link>
-        <Link to="sample2"><FlatButton style={navStyle}>Contact</FlatButton></Link>
         <Link to="sample2"><FlatButton style={navStyle}>Portfolio</FlatButton></Link>
-        <Link to="sample2"><FlatButton style={navStyle}>How</FlatButton></Link>
+        <Link to="sample2"><FlatButton style={navStyle}>Contact</FlatButton></Link>
+        <FlatButton href="https://www.github.com/njwest" target="_blank" style={navImg}><img src="/img/30pxgit.png" /></FlatButton>
+        <FlatButton href="https://www.linkedin.com/in/nick-west-67471742" target="_blank" style={navImg}><img src="/img/30pxlinked.png" /></FlatButton>
+        <FlatButton href="https://twitter.com/n1ckw3st" target="_blank" style={navImg}><img src="/img/30pxtwit.png" /></FlatButton>
+        <FlatButton href="http://stackoverflow.com/users/6421202/nick-west" target="_blank" style={navImg}><img src="/img/30pxstack.png" /></FlatButton>
     </AppBar>
       {this.props.children}
     </div>;
