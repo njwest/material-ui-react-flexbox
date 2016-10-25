@@ -7,6 +7,14 @@ body {
   background-image: url('../img/tree_bark.png');
 }
 
+.card{
+  margin-top: 10px;
+}
+
+.cardContent{
+  padding: 10px 25px;
+}
+
 .container {
   padding-right: 15px;
   padding-left: 15px;
