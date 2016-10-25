@@ -31,13 +31,14 @@ export default class Layout extends React.Component {
 
     return <div>
     <Drawer open={this.state.open} docked={false} onRequestChange={(open) => this.setState({open})}>
-      <MenuItem>Menu Item</MenuItem>
+      <Link to="/"><MenuItem><FlatButton >Portfolio</FlatButton></MenuItem></Link>
       <MenuItem>Menu Item 2</MenuItem>
+
     </Drawer>
     <AppBar onLeftIconButtonTouchTap={this.handleToggle} title="Nick West's Home">
-        <Link to="sample2"><FlatButton rippleColor="pink" style={navStyle}>About Nick</FlatButton></Link>
-        <Link to="sample2"><FlatButton style={navStyle}>Portfolio</FlatButton></Link>
-        <Link to="sample2"><FlatButton style={navStyle}>Contact</FlatButton></Link>
+        <Link to="/"><FlatButton rippleColor="pink" style={navStyle}>About Nick</FlatButton></Link>
+        <Link to="/"><FlatButton style={navStyle}>Portfolio</FlatButton></Link>
+        <Link to="/"><FlatButton style={navStyle}>Contact</FlatButton></Link>
         <FlatButton href="https://www.github.com/njwest" target="_blank" style={navImg}><img src="/img/30pxgit.png" /></FlatButton>
         <FlatButton href="https://www.linkedin.com/in/nick-west-67471742" target="_blank" style={navImg}><img src="/img/30pxlinked.png" /></FlatButton>
         <FlatButton href="https://twitter.com/n1ckw3st" target="_blank" style={navImg}><img src="/img/30pxtwit.png" /></FlatButton>
