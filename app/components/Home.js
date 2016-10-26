@@ -54,8 +54,13 @@ class _Home extends Component {
             <Col xs={12} md={7}>
               <Card className="card">
                 <div className="cardContent">
-                  <h2>Sup suckas</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <h2>About Nick</h2>
+                  <img src="/img/nick.png" className="biopic"/>
+                    <p>Nick West is a full-stack developer who currently serves as the Instructional Designer of the <a href="http://dsw.socialwork.rutgers.edu" target="_blank">Rutgers Doctor of Social Work (DSW) Program</a>. Nick is now working on ReactJS webpack-node and React Native applications with GraphQL and Realm databases.
+                  </p>
+                  <p>
+                    An avid musician and lover of neo-soul and jazz, Nick co-founded the New Jersey chapter of Classical Revolution and can be spotted in the wild at jazz clubs around the NYC metro area. His research interests include Human-Computer Interaction, digital consciousness, identity, and modern journalism.
+                  </p>
                 </div>
               </Card>
             </Col>
