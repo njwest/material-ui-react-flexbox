@@ -39,10 +39,10 @@ render(){
         </Toolbar>
         <div className="container">
           <Row>
-          <Col xs={12} md={4}>
+          <Col xs={12} sm={6} md={4}>
             <Card className="card cardContent">
               <a href="http://www.nickwe.st" target="_blank">
-                <img className="projectLogo" id="nickpic" src="/img/nickwest.png" alt="Climb On"/>
+                <img className="projectLogo" id="nickpic" src="/img/nickwest.png" alt="Nick West"/>
                 <h3 className="projectTitle">NickWe.st</h3>
               </a>
               <p>Nick West's portfolio (you are here).</p>
@@ -53,33 +53,35 @@ render(){
                 <li>Material UI</li>
                 <li>React Flexbox Grid</li>
                 <li>React Router</li>
-                <li>The Konami Code...</li>
+                <li>Webpack</li>
+                <li>The <strong>Konami Code</strong>...</li>
               </ul>
             </Card>
           </Col>
-            <Col xs={12} md={4}>
+            <Col xs={12} sm={6} md={4}>
         			<Card className="card cardContent">
         				<a href="https://climb-on.herokuapp.com" target="_blank">
                   <img className="projectLogo" src="/img/climb-on-logo.png" alt="Climb On"/>
                   <h3 className="projectTitle">Climb On v0.0.3a</h3>
                 </a>
-                <p>A rock climbing and bouldering app in which users can upload their climbs.</p>
+                <p>A rock climbing and bouldering app in which users can upload climbs using their geolocation, climb description, difficulty, rating, et cetera.</p>
                 <h4>Tech used:</h4>
                 <ul>
                   <li>MeteorJS</li>
                   <li>ES6 ReactJS</li>
-                  <li>HTML5 Geolocation</li>
                   <li>React Router</li>
                   <li>React Komposer</li>
+                  <li>HTML5 Geolocation</li>
                   <li>MongoDB</li>
                   <li>Mailgun</li>
                   <li>Node</li>
                   <li>Free Heroku Dyno</li>
+                  <li>React Bootstrap</li>
                 </ul>
 
         			</Card>
             </Col>
-            <Col xs={12} md={4}>
+            <Col xs={12} sm={6} md={4}>
         			<Card className="card cardContent">
         				<a href="http://www.impulsion.io" target="_blank">
                   <img className="impulsion" src="img/impulsion.png" alt="Impulsion" href="http://www.impulsion.io" target="_blank"/>
