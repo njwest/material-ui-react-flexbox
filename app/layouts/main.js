@@ -42,14 +42,16 @@ export default class Layout extends React.Component {
       <MenuItem>Menu Item 2</MenuItem>
 
     </Drawer>
-    <AppBar onLeftIconButtonTouchTap={this.handleToggle} title="Nick West's Home">
-        <Link to="/"><FlatButton rippleColor="pink" style={navStyle}>About Nick</FlatButton></Link>
-        <Link to="/"><FlatButton style={navStyle}>Portfolio</FlatButton></Link>
-        <Link to="/"><FlatButton style={navStyle}>Contact</FlatButton></Link>
-        <FlatButton href="https://www.github.com/njwest" target="_blank" style={navImg}><img src="/img/30pxgit.png" /></FlatButton>
-        <FlatButton href="http://stackoverflow.com/users/6421202/nick-west" target="_blank" style={navImg}><img src="/img/30pxstack.png" /></FlatButton>
-        <FlatButton href="https://twitter.com/n1ckw3st" target="_blank" style={navImg}><img src="/img/30pxtwit.png" /></FlatButton>
-        <FlatButton href="https://www.linkedin.com/in/nick-west-67471742" target="_blank" style={navImg}><img src="/img/30pxlinked.png" /></FlatButton>
+    <AppBar onLeftIconButtonTouchTap={this.handleToggle} title="Nick We.st">
+      <div className="navLinks">
+          <Link to="/"><FlatButton rippleColor="pink" style={navStyle}>About Nick</FlatButton></Link>
+          <Link to="/"><FlatButton style={navStyle}>Portfolio</FlatButton></Link>
+          <Link to="/"><FlatButton style={navStyle}>Contact</FlatButton></Link>
+          <FlatButton href="https://www.github.com/njwest" target="_blank" style={navImg}><img src="/img/30pxgit.png" /></FlatButton>
+          <FlatButton href="http://stackoverflow.com/users/6421202/nick-west" target="_blank" style={navImg}><img src="/img/30pxstack.png" /></FlatButton>
+          <FlatButton href="https://twitter.com/n1ckw3st" target="_blank" style={navImg}><img src="/img/30pxtwit.png" /></FlatButton>
+          <FlatButton href="https://www.linkedin.com/in/nick-west-67471742" target="_blank" style={navImg}><img src="/img/30pxlinked.png" /></FlatButton>
+      </div>
     </AppBar>
       {this.props.children}
     </div>;

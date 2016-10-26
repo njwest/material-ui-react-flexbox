@@ -8,6 +8,7 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import Layout from './layouts/main.js';
 import TopContainer from './components/TopContainer';
 import Home from './components/Home';
+import Portfolio from './components/Portfolio';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
 
@@ -18,6 +19,7 @@ render((
     <Router history={browserHistory}>
       <Route path="/" component={Layout}>
         <IndexRoute name="index" component={Home}/>
+        <Route path="/portfolio" name="portfolio" component=  {Portfolio}/>
       </Route>
     </Router>
   </MuiThemeProvider>

@@ -7,6 +7,16 @@ body {
   background-image: url('../img/tree_bark.png');
 }
 
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #2A5DB0;
+}
+
+a:hover{
+  color: #007;
+}
+
 .card{
   margin-top: 10px;
 }
@@ -19,6 +29,7 @@ body {
   float: left;
   padding-right: 10px;
   padding-bottom: 5px;
+  margin-top: 2px;
 }
 
 .container {
@@ -27,6 +38,21 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+
+.projectLogo{
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 767px){
+  .navLinks{
+    display: none;
+  }
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;

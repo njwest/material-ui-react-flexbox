@@ -9,7 +9,6 @@ import ReactGridLayout from 'react-grid-layout';
 import RaisedButton from 'material-ui/RaisedButton';
 import { Grid, Row, Col } from 'react-flexbox-grid/lib/index';
 import { Card } from 'material-ui/Card';
-import Konami from 'react-konami';
 
 class _Home extends Component {
   constructor(props) {
@@ -40,7 +39,6 @@ class _Home extends Component {
 
     return (
       <div>
-      <Konami easterEgg={Slappy} />
       <Toolbar>
         <div className="container">
           <ToolbarTitle text="About Nick"/>
