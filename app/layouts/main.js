@@ -30,12 +30,16 @@ export default class Layout extends React.Component {
       width: '30px',
     }
 
-    const styleChange = () =>{
-
+    const konamiC0de = () =>{
+      console.log('lol');
+      let audio = new Audio('/audio/syds-theme-mm.mp3');
+      audio.play();
+      var el = document.getElementById("nickpic");
+      el.src="/img/nickglasses.png";
     }
 
     return <div>
-    <Konami easterEgg={styleChange} />
+    <Konami easterEgg={konamiC0de} />
 
     <Drawer open={this.state.open} docked={false} onRequestChange={(open) => this.setState({open})}>
       <Link to="/"><MenuItem><FlatButton >Portfolio</FlatButton></MenuItem></Link>
@@ -45,7 +49,7 @@ export default class Layout extends React.Component {
     <AppBar onLeftIconButtonTouchTap={this.handleToggle} title="Nick We.st">
       <div className="navLinks">
           <Link to="/"><FlatButton rippleColor="pink" style={navStyle}>About Nick</FlatButton></Link>
-          <Link to="/"><FlatButton style={navStyle}>Portfolio</FlatButton></Link>
+          <Link to="/portfolio"><FlatButton style={navStyle}>Portfolio</FlatButton></Link>
           <Link to="/"><FlatButton style={navStyle}>Contact</FlatButton></Link>
           <FlatButton href="https://www.github.com/njwest" target="_blank" style={navImg}><img src="/img/30pxgit.png" /></FlatButton>
           <FlatButton href="http://stackoverflow.com/users/6421202/nick-west" target="_blank" style={navImg}><img src="/img/30pxstack.png" /></FlatButton>

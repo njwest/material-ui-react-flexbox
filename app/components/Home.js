@@ -33,10 +33,6 @@ class _Home extends Component {
   }
 
   render() {
-    const Slappy = () =>{
-      console.log('aww yeah');
-    }
-
     return (
       <div>
       <Toolbar>
@@ -52,12 +48,11 @@ class _Home extends Component {
             <Col xs={12} md={7}>
               <Card className="card">
                 <div className="cardContent">
-                  <h2>About Nick</h2>
-                  <img src="/img/nick.png" className="biopic"/>
-                    <p>Nick West is a full-stack developer who currently serves as the Instructional Designer of the <a href="http://dsw.socialwork.rutgers.edu" target="_blank">Rutgers Doctor of Social Work (DSW) Program</a>. Nick is now working on ReactJS webpack-node and React Native applications with GraphQL and Realm databases.
+                  <img src="/img/nickwest.png" className="biopic" id="nickpic"/>
+                    <p>Nick West is a full-stack JavaScript and PHP developer who currently serves as the Instructional Designer of the <a href="http://dsw.socialwork.rutgers.edu" target="_blank">Rutgers Doctor of Social Work (DSW) Program</a>. Nick is now working on ReactJS Node+webpack and React Native applications while learning GraphQL, Realm database architecture.
                   </p>
                   <p>
-                    An avid musician and lover of neo-soul and jazz, Nick co-founded the New Jersey chapter of Classical Revolution and can be spotted in the wild at jazz clubs around the NYC metro area. His research interests include Human-Computer Interaction, digital consciousness, identity, and modern journalism.
+                    An avid musician who loves neo-soul and jazz, Nick co-founded the New Jersey chapter of Classical Revolution and can be spotted in the wild at jazz clubs around the NY metro area. His research interests include Human-Computer Interaction, digital consciousness, identity, and modern journalism.
                   </p>
                 </div>
               </Card>
