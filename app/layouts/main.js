@@ -53,7 +53,7 @@ export default class Layout extends React.Component {
       <AppBar title="NickWe.st" iconElementLeft={<IconButton><NavigationClose /></IconButton>} onLeftIconButtonTouchTap={this.handleToggle}/>
       <Link to="/"><MenuItem>About</MenuItem></Link>
       <Link to="/portfolio">
-      <MenuItem> Portfolio</MenuItem>
+      <MenuItem>Nick's Work</MenuItem>
       </Link>
       <MenuItem href="https://www.github.com/njwest" target="_blank"><img src="/img/30pxgit.png" /></MenuItem>
       <MenuItem href="http://stackoverflow.com/users/6421202/nick-west" target="_blank"><img src="/img/30pxstack.png" /></MenuItem>
@@ -64,7 +64,7 @@ export default class Layout extends React.Component {
     <AppBar onLeftIconButtonTouchTap={this.handleToggle} title="Nick We.st">
       <div className="navLinks">
           <Link to="/"><FlatButton rippleColor="pink" style={navStyle}>About </FlatButton></Link>
-          <Link to="/portfolio"><FlatButton style={navStyle}>Portfolio</FlatButton></Link>
+          <Link to="/portfolio"><FlatButton style={navStyle}>Nick's Work</FlatButton></Link>
           <FlatButton href="https://www.github.com/njwest" target="_blank" style={navImg}><img src="/img/30pxgit.png" /></FlatButton>
           <FlatButton href="http://stackoverflow.com/users/6421202/nick-west" target="_blank" style={navImg}><img src="/img/30pxstack.png" /></FlatButton>
           <FlatButton href="https://www.linkedin.com/in/nick-west-67471742" target="_blank" style={navImg}><img src="/img/30pxlinked.png" /></FlatButton>

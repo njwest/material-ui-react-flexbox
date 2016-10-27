@@ -34,7 +34,7 @@ render(){
   return <div>
         <Toolbar>
           <div className="container">
-            <ToolbarTitle text="Nick's Portfolio"/>
+            <ToolbarTitle text="Nick's Work"/>
           </div>
         </Toolbar>
         <div className="container">
@@ -75,7 +75,8 @@ render(){
                   <li>MongoDB</li>
                   <li>Mailgun</li>
                   <li>Google Maps</li>
-                  <li>Free Heroku Dyno</li>
+                  <li>Node</li>
+                  <li>Heroku</li>
                   <li>React Bootstrap</li>
                 </ul>
 
@@ -87,17 +88,17 @@ render(){
                   <img className="impulsion" src="img/impulsion.png" alt="Impulsion" href="http://www.impulsion.io" target="_blank"/>
                   <h3 className="projectTitle">Impulsion v0.0.2a</h3>
                 </a>
-                <p>A Cognitive Behavioral Modification web app for brekaing habits.</p>
+                <p>A Cognitive Behavioral Modification web app for breaking habits.</p>
                 <h4>Tech used:</h4>
                 <ul>
                   <li>Express</li>
                   <li>Sequelize</li>
                   <li>MySQL</li>
-                  <li>Firebase (for now-hacked chat)</li>
-                  <li>Vanilla JavaScript & JQuery</li>
+                  <li>JQuery</li>
                   <li>MaterializeCSS</li>
                   <li>Node</li>
                   <li>Free Heroku Dyno</li>
+                  <li>Firebase (for now-hacked chat)</li>
                 </ul>
         			</Card>
             </Col>

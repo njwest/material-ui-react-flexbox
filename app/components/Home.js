@@ -28,11 +28,11 @@ class _Home extends Component {
     };
   }
 
-
   componentDidMount() {
   }
 
   render() {
+
     return (
       <div>
       <Toolbar>
@@ -49,12 +49,12 @@ class _Home extends Component {
               <Card className="card">
                 <div className="cardContent">
                   <img src="/img/nickwest.png" className="biopic" id="nickpic"/>
-                    <p><strong>Nick West</strong> is a higher education expert and full-stack JavaScript & PHP developer who currently serves as the Instructional Designer of the <a href="http://dsw.socialwork.rutgers.edu" target="_blank">Rutgers Doctor of Social Work (DSW) Program</a>. Nick is now working on ReactJS and React Native applications with MySQL and MongoDB. He is currently learning GraphQL and Realm database architecture.
+                    <p><strong>Nick West</strong> is a higher education specialist and full-stack JavaScript & PHP developer who currently serves as the Instructional Designer of the <a href="http://dsw.socialwork.rutgers.edu" target="_blank">Rutgers Doctor of Social Work (DSW) Program</a>. Nick is now working on ReactJS and React Native applications with MySQL and MongoDB. He is currently learning GraphQL and Realm database architecture while dabbling in Angular 2.
                   </p>
                   <p>
                     An avid musician who loves neo-soul and jazz, Nick co-founded the New Jersey chapter of Classical Revolution and can be spotted in the wild at jazz clubs around the NY metro area. His research interests include Human-Computer Interaction, digital consciousness, identity, and modern media.
                   </p>
-                  <p>Regarding media, Nick West is a long-time advocate of local journalism who serves on the board of <a href="http://www.newbrunswicktoday.com" target="_blank"><em>New Brunswick Today</em></a>, a bi-lingual New Jersey news outlet. Nick established <em>New Brunswick Today</em>'s print newspaper operation and was instrumental in establishing NBT's Spanish translation team.
+                  <p>Regarding media, Nick West is a long-time advocate of local journalism who serves on the board of <a href="http://www.newbrunswicktoday.com" target="_blank"><em>New Brunswick Today</em></a>, a bi-lingual New Jersey news outlet. Nick established <em>New Brunswick Today</em>'s print newspaper operation and organized NBT's Spanish translation team.
                   </p>
                 </div>
               </Card>
@@ -71,7 +71,7 @@ class _Home extends Component {
                     </Col>
                     <Col xs={6}>
                       <div className="centered">
-                        <RaisedButton label="Email Nick" className="centered" secondary={true} href="mailto:mail@nickwe.st" target="_top"/>
+                        <RaisedButton label="Email Nick" href="mailto:mail@nickwe.st" primary={true} target="_top" />
                       </div>
                     </Col>
                   </Row>

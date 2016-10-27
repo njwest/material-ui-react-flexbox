@@ -66,6 +66,7 @@ a:hover{
   text-align: center;
 }
 
+
 @media (max-width: 767px){
   .navLinks{
     display: none;
