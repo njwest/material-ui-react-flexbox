@@ -64,7 +64,7 @@ render(){
                   <img className="projectLogo" src="/img/climb-on-logo.png" alt="Climb On"/>
                   <h3 className="projectTitle">Climb On v0.0.3a</h3>
                 </a>
-                <p>A rock climbing and bouldering app in which users can upload climbs using their geolocation, climb description, difficulty, rating, et cetera.</p>
+                <p>A rock climbing and bouldering app in which users can upload climbs</p>
                 <h4>Tech used:</h4>
                 <ul>
                   <li>MeteorJS</li>
@@ -74,7 +74,7 @@ render(){
                   <li>HTML5 Geolocation</li>
                   <li>MongoDB</li>
                   <li>Mailgun</li>
-                  <li>Node</li>
+                  <li>Google Maps</li>
                   <li>Free Heroku Dyno</li>
                   <li>React Bootstrap</li>
                 </ul>
