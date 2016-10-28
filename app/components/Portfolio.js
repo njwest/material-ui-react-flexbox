@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { Container } from 'flux/utils';
-import { Link } from 'react-router'
 import SampleStore from '../stores/SampleStore';
 import { Toolbar, ToolbarTitle } from 'material-ui/Toolbar';
 import { List, ListItem } from 'material-ui/List';
@@ -64,7 +63,8 @@ render(){
                   <img className="projectLogo" src="/img/climb-on-logo.png" alt="Climb On"/>
                   <h3 className="projectTitle">Climb On v0.0.3a</h3>
                 </a>
-                <p>A rock climbing and bouldering app in which users can upload climbs</p>
+                <p>A rock climbing and bouldering app in which users can upload climb entries comprised of the users' geolocation, climb difficulty, climb rating, and comments.</p>
+                <p>Nick West and developer Arnold Lei are currently rebuilding this app in React Native.</p>
                 <h4>Tech used:</h4>
                 <ul>
                   <li>MeteorJS</li>
@@ -89,6 +89,7 @@ render(){
                   <h3 className="projectTitle">Impulsion v0.0.2a</h3>
                 </a>
                 <p>A Cognitive Behavioral Modification web app for breaking habits.</p>
+                <p>Nick is currently rebuilding this app in React.</p>
                 <h4>Tech used:</h4>
                 <ul>
                   <li>Express</li>
@@ -97,7 +98,7 @@ render(){
                   <li>JQuery</li>
                   <li>MaterializeCSS</li>
                   <li>Node</li>
-                  <li>Free Heroku Dyno</li>
+                  <li>Heroku</li>
                   <li>Firebase (for now-hacked chat)</li>
                 </ul>
         			</Card>

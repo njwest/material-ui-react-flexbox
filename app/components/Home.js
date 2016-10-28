@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { Container } from 'flux/utils';
-import { Link } from 'react-router'
 import SampleStore from '../stores/SampleStore';
 import { Toolbar, ToolbarTitle } from 'material-ui/Toolbar';
 import { List, ListItem } from 'material-ui/List';
@@ -87,9 +86,3 @@ class _Home extends Component {
 
 const Home = Container.create(_Home);
 export default Home;
-
-// <List>
-//   <ListItem><Link to="/">Top</Link></ListItem>
-//   <ListItem><Link to="sample1">Sample1</Link></ListItem>
-//   <ListItem><Link to="sample2">Sample2</Link></ListItem>
-// </List>
