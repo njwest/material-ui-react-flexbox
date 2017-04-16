@@ -4,12 +4,16 @@ html {
 
 body {
   margin: 0;
-  background-image: url('../img/tree_bark.png');
+  /*background-image: url('../img/tree_bark.png');*/
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.navbar{
+  background-color: #505061 !important;
 }
 
 a{
   text-decoration: none;
-  font-weight: bold;
   color: #2A5DB0;
 }
 
