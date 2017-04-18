@@ -1,11 +1,32 @@
 html {
+  height: 100%;
+
   font-family: 'Roboto', sans-serif;
+  /* IE10+ */
+background-image: -ms-linear-gradient(top left, #6E81C5 0%, #000000 100%);
+
+/* Mozilla Firefox */
+background-image: -moz-linear-gradient(top left, #6E81C5 0%, #000000 100%);
+
+/* Opera */
+background-image: -o-linear-gradient(top left, #6E81C5 0%, #000000 100%);
+
+/* Webkit (Safari/Chrome 10) */
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #6E81C5), color-stop(100, #000000));
+
+/* Webkit (Chrome 11+) */
+background-image: -webkit-linear-gradient(top left, #6E81C5 0%, #000000 100%);
+
+/* W3C Markup */
+background-image: linear-gradient(to bottom right, #6E81C5 0%, #000000 100%);
 }
 
 body {
   margin: 0;
   /*background-image: url('../img/tree_bark.png');*/
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  /* IE10+ */
+
 }
 
 .navbar{
@@ -27,6 +48,8 @@ a:hover{
 
 .cardContent{
   padding: 10px 25px;
+  color: white;
+  background-color: #505061;
 }
 
 .biopic{
@@ -70,6 +93,20 @@ a:hover{
   text-align: center;
 }
 
+.section1{
+  height: 600px;
+}
+
+.home1{
+  width: 400px;
+  height: 600px;
+  margin: 0px auto;
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+
+}
 
 @media (max-width: 767px){
   .navLinks{
