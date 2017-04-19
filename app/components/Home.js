@@ -46,7 +46,7 @@ class _Home extends Component {
           <Row className="section1">
             <Col xs={12}>
               <div className="home1">
-                Nick is a fucking mensch
+                Nick is a mensch
 
               </div>
             </Col>
